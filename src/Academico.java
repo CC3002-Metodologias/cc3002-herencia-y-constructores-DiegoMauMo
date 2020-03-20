@@ -5,15 +5,16 @@ public class Academico extends Persona{
         super(nombre, ocupacion, edad);
         this.paper = paper;
     }
+
     public void comer() {
         System.out.println("Ñom Ñom comida casera");
     }
 
     public void dormir() {
-        System.out.println("ZzzZzZzZ");
+        System.out.println("ZzzZzZz");
     }
 
-    public String hacerLoSuyo() { return "Aquí fastidiado con esta cosa del Zoom";}
+    public String hacerLoSuyo() { return "En cuarentena, fastidiado con esta cosa del Zoom";}
 
-    public String publicarPaper(){ return this.paper+"publicado";}
+    public String publicarPaper(){ return "'"+this.paper+"'"+" publicado";}
 }

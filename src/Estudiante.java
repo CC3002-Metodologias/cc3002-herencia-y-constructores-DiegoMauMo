@@ -8,8 +8,8 @@ public class Estudiante extends Persona{
     }
 
     public void dormir() {
-        System.out.println("ZzzZzZz");
+        System.out.println("ZzzZzZ");
     }
 
-    public String hacerLoSuyo() { return "Aquí viendo animes y series"; }
+    public String hacerLoSuyo() { return "En cuarentena, viendo animes y series"; }
 }
