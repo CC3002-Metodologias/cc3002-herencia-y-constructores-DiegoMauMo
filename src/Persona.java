@@ -20,6 +20,4 @@ public class Persona {
     public String hacerLoSuyo() {
         return "En cuarentena";
     }
-
-    public String publicarPaper(){ return "";}
 }
